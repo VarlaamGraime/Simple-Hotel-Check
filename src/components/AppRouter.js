@@ -1,6 +1,7 @@
 import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom'
 import { publicRoutes, authRoutes } from '../routes';
+import { LOGIN_ROUTE } from '../utils/consts';
 
 const AppRouter = () => {
     const isAuth = false
@@ -11,8 +12,9 @@ const AppRouter = () => {
       )}
       {publicRoutes.map(({path, Component}) =>
       <Route key={path} path={path} element={<Component/>} exact/>
-      )}
-      </Routes>
+        )}
+        <Route path='*' element={<Navigate to={LOGIN_ROUTE} />} />
+    </Routes>
       
           
     );
