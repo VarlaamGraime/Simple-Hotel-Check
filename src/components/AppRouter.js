@@ -1,11 +1,20 @@
 import React from 'react';
-import {Routes, Route, Navigate} from 'react-router-dom'
+import { Routes, Route, Navigate } from 'react-router-dom'
+import { publicRoutes, authRoutes } from '../routes';
 
 const AppRouter = () => {
+    const isAuth = false
     return (
-        <div>
-            
-        </div>
+    <Routes>
+      {isAuth && authRoutes.map(({path, Component}) =>
+        <Route key={path} path={path} element={<Component/>} exact/>
+      )}
+      {publicRoutes.map(({path, Component}) =>
+      <Route key={path} path={path} element={<Component/>} exact/>
+      )}
+      </Routes>
+      
+          
     );
 };
 
