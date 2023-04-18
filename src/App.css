@@ -1,6 +1,4 @@
-.authForm {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: red;
+* {
+    margin: 0;
+    padding: 0;
 }
