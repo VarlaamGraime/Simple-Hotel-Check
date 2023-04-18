@@ -64,5 +64,21 @@
 
 .sliderWrapper {
     width: 100%;
-    /* другие свойства стиля */
+}
+
+.blockFavoriteAdd {
+    left: 0;
+    margin-right: 365px;
+
+}
+
+.textFavoriteAdd {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: #424242;
+    white-space: nowrap;
 }

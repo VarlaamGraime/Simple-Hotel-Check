@@ -1,14 +1,9 @@
 import React, { useRef } from 'react';
 import styleLists from '../style/styleLists.css'
 import SimpleSlider from './SimpleSlider';
+import axios from 'axios';
 
 const Lists = () => {
-    const images = [
-        "https://i.ibb.co/3yFR8vJ/Rectangle-28.png", 
-        "https://i.ibb.co/G06Ycsg/Rectangle-24.png", 
-        "https://i.ibb.co/G06Ycsg/Rectangle-24.png", 
-        "https://i.ibb.co/kyvZkXy/Rectangle-23.png"  
-    ]
  
 
 
@@ -28,6 +23,10 @@ const Lists = () => {
             </div>
             <div className='sliderWrapper'>
             <SimpleSlider/>
+            </div>
+
+            <div className='blockFavoriteAdd'>
+                <h4 className='textFavoriteAdd'>Добавлено в избранное: 3 отеля</h4>    
             </div>
         </div>
     );
