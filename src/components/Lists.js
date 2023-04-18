@@ -1,5 +1,6 @@
 import React from 'react';
 import styleLists from '../style/styleLists.css'
+import Carousel from './Carousel';
 
 const Lists = () => {
     return (
@@ -15,8 +16,9 @@ const Lists = () => {
                         <h1 className='textLists'>Москва </h1>
                 </div>
                     <h2 className='textDateLists'>07 июля 2020</h2>  
-
+                <Carousel/>
             </div>
+
         </div>
     );
 };

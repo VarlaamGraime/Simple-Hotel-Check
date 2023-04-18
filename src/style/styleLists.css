@@ -17,7 +17,7 @@
 }
 
 .blockLists {
-    margin-right: 200px;
+    margin-right: 190px;
     display: flex;
     flex-direction: row;
 }
@@ -33,6 +33,8 @@
     align-items: center;
     color: #424242;
     padding-left: 20px;
+
+
 }
 
 .textDateLists {
@@ -47,6 +49,7 @@
     color: #41522E;
     white-space: nowrap;
     margin-top: 24px;
+    margin-right: 10px;
 }
 
 .textFlex {
