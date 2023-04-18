@@ -68,7 +68,7 @@
 
 .blockFavoriteAdd {
     left: 0;
-    margin-right: 365px;
+    width: 600px;
 
 }
 
@@ -81,4 +81,116 @@
     letter-spacing: -0.408px;
     color: #424242;
     white-space: nowrap;
+}
+
+.elipseLists {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: rgba(65, 82, 46, 0.05);
+    margin-top: 30px;
+}
+
+.iconRel {
+    position: relative;
+}
+
+.houseIcon {
+    position: absolute;
+    bottom: 18px;
+    left: 20px;
+}
+
+.roofIcon {
+    position: absolute;
+    bottom: 33px;
+    left: 15px;
+}
+
+.nameHotel {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: #424242;
+    padding-left: 24px;
+    padding-top: 30px;
+    width: 254px;
+
+}
+
+.dateHotel {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    padding-left: 24px;
+    color: #878787;
+    margin-top: -10px;
+}
+
+.starsRow {
+    padding-left: 24px;
+    margin-top: -14px;
+
+}
+
+.starslists {
+    margin-right: 3px;
+}
+
+.priceLists {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: #878787;
+    white-space: nowrap;
+    padding-top: 69px;
+    padding-left: 140px;
+    position: absolute;
+
+
+}
+
+.costLists {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: -0.408px;
+    color: #424242;
+    white-space: nowrap;
+    padding-top: 67px;
+    padding-left: 180px;
+}
+
+.likesIcons {
+    position: absolute;
+    margin-top: 27px;
+    margin-left: 210px;
+    cursor: pointer;
+}
+
+.likesIcons:hover path {
+    fill: rgba(196, 196, 196, 1);
+    transition: .5s linear;
+}
+
+.likesIcons:active path {
+    fill: #E55858;
+    border: none;
+}
+
+.costsFlex {
+    display: flex;
+    flex-direction: row;
 }
