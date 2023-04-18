@@ -16,4 +16,44 @@
 
 }
 
-.textLists {}
+.blockLists {
+    margin-right: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.textLists {
+    margin-top: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    color: #424242;
+    padding-left: 20px;
+}
+
+.textDateLists {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #41522E;
+    white-space: nowrap;
+    margin-top: 24px;
+}
+
+.textFlex {
+    white-space: nowrap;
+}
+
+.flexHead {
+    display: flex;
+    flex-direction: row;
+}
