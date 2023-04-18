@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import styleLists from '../style/styleLists.css'
-import Carousel from './Carousel';
-
 const Lists = () => {
+    const images = [
+        "https://i.ibb.co/3yFR8vJ/Rectangle-28.png", 
+        "https://i.ibb.co/G06Ycsg/Rectangle-24.png", 
+        "https://i.ibb.co/G06Ycsg/Rectangle-24.png", 
+        "https://i.ibb.co/kyvZkXy/Rectangle-23.png"  
+    ]
+ 
+
+
     return (
         <div className='cardLists'>
             <div className='flexHead'>
@@ -16,9 +23,7 @@ const Lists = () => {
                         <h1 className='textLists'>Москва </h1>
                 </div>
                     <h2 className='textDateLists'>07 июля 2020</h2>  
-                <Carousel/>
             </div>
-
         </div>
     );
 };
