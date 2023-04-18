@@ -1,5 +1,7 @@
 import React, { useRef } from 'react';
 import styleLists from '../style/styleLists.css'
+import SimpleSlider from './SimpleSlider';
+
 const Lists = () => {
     const images = [
         "https://i.ibb.co/3yFR8vJ/Rectangle-28.png", 
@@ -22,7 +24,11 @@ const Lists = () => {
                         </h1>
                         <h1 className='textLists'>Москва </h1>
                 </div>
-                    <h2 className='textDateLists'>07 июля 2020</h2>  
+                <h2 className='textDateLists'>07 июля 2020</h2>  
+            </div>
+            <div>
+            <SimpleSlider/>
+                
             </div>
         </div>
     );
