@@ -26,9 +26,8 @@ const Lists = () => {
                 </div>
                 <h2 className='textDateLists'>07 июля 2020</h2>  
             </div>
-            <div>
+            <div className='sliderWrapper'>
             <SimpleSlider/>
-                
             </div>
         </div>
     );

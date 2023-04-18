@@ -61,7 +61,8 @@
     flex-direction: row;
 }
 
-.slider-container {
-    margin: 0 auto;
-    width: 80%;
+
+.sliderWrapper {
+    width: 100%;
+    /* другие свойства стиля */
 }
