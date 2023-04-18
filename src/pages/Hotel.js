@@ -4,6 +4,8 @@ import styleHotel from '../style/styleHotel.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRightFromBracket } from '@fortawesome/free-solid-svg-icons';
 import { faSharp } from '@fortawesome/free-solid-svg-icons';
+import Favorites from '../components/Favorites';
+import Lists from '../components/Lists';
 
 const Hotel = () => {
     return (
@@ -15,7 +17,13 @@ const Hotel = () => {
                     <FontAwesomeIcon className='exitIcon' size="lg" icon={faArrowRightFromBracket} color="#41522E" />
                 </div>
             </div>
-            <Location />
+            <div className='rowComponents'>
+                <div className='columnComponent'>
+                    <Location />
+                    <Favorites />
+                </div>
+                    <Lists />
+            </div>
         </div>
     );
 };

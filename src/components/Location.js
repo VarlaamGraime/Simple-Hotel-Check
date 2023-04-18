@@ -1,8 +1,9 @@
 import React from 'react';
+import styleLocation from '../style/styleLocation.css'
 
 const Location = () => {
     return (
-        <div>
+        <div className='cardLocation'>
             
         </div>
     );

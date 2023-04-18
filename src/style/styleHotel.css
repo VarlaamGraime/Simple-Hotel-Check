@@ -53,3 +53,13 @@
     padding-right: 35px;
     transform: translate(0, -25%);
 }
+
+.rowComponents {
+    display: flex;
+    flex-direction: row;
+}
+
+.columnComponent {
+    display: flex;
+    flex-direction: column;
+}
