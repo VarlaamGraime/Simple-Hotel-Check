@@ -17,12 +17,14 @@ const Hotel = () => {
                     <FontAwesomeIcon className='exitIcon' size="lg" icon={faArrowRightFromBracket} color="#41522E" />
                 </div>
             </div>
-            <div className='rowComponents'>
-                <div className='columnComponent'>
-                    <Location />
-                    <Favorites />
+            <div className='paddingComponents'>
+                <div className='rowComponents'>
+                    <div className='columnComponent'>
+                        <Location />
+                        <Favorites />
+                    </div>
+                        <Lists />
                 </div>
-                    <Lists />
             </div>
         </div>
     );

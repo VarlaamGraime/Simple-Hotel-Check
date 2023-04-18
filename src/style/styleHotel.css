@@ -63,3 +63,9 @@
     display: flex;
     flex-direction: column;
 }
+
+.paddingComponents {
+    padding-left: 196px;
+    padding-top: 12px;
+    padding-right: 184px;
+}
